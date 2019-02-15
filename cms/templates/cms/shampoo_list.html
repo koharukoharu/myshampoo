@@ -25,6 +25,7 @@
           <td>
             <a href="{% url 'cms:shampoo_mod' shampoo_id=shampoo.id %}" class="btn btn-outline-primary btn-sm">修正</a>
             <a href="{% url 'cms:shampoo_del' shampoo_id=shampoo.id %}" class="btn btn-outline-danger btn-sm">削除</a>
+            <a href="{% url 'cms:impression_list' shampoo_id=shampoo.id %}" class="btn btn-outline-info btn-sm">感想の一覧</a>
           </td>
         </tr>
         {% endfor %}
